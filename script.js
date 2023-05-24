@@ -29,6 +29,6 @@ const weightedUniformStrings = (s, queries) => {
         }
         uniformSubLen = 1;
     });
-    //  
+
     return queries.map((entry) => weights.includes(entry) ? 'Yes' : 'No')
 }
